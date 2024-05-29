@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+    margin:0;
+}
+.head1{
+    display: flex;
+}
+
+.head1>div:nth-child(1){
+    margin-left:150px;
+    margin-right: 200px;
+}
+
+.head1>div:nth-child(2){
+    margin-right: 200px;
+}
+
+.head2{
+   padding:24px;
+}
+
+.head2 a{
+    padding: 20px;
+}
+
+.head2 a:hover{
+    color:rgb(205, 8, 69);
+}
+
+.head5{
+    padding:15px;
+}
+
+.btorange{
+    background-color: rgb(205, 8, 69);
+    border: None;
+    color:white;
+    border-radius: 6px;
+    padding:10px;
+    width:130px;
+}
+
+.head6{
+   padding:100px;
+   margin-left: 525px;
+}
+
+.head7{
+    margin: 0;
+    font-size: 40px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.head8{
+    display: flex;
+}
+
+.btn{
+    background-color: 245, 245, 245;
+    /* box-shadow:1px 1px 100px black; */
+    color: rgb(234, 220, 53 );
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    margin: 14px;
+    
+}
+
+.head8>h3{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.imgclg{
+    height: 5px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+    /* justify-content: space-around; */
+    margin-bottom: 200px;
+}
+
+.item1{
+    grid-column: 1/3;
+}
+
+.item2{
+    grid-column: 3/5;
+}
+
+.item4{
+    grid-column: 2/4;
+}
+
+.grid-container2>div>h3{
+    margin-left: 80px;
+    font-size:25px;
+}
+
+.midimg{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:1050px){
+
+.head1{
+    width: 1515px;
+}
+
+.img1{
+    width:1515px;
+}
+
+.heada6{
+   /* width:1515px; */
+}
+
+.grid-container{
+    width: 1515px;
+}
+
+.midimg{
+    width:1515px;
+}
+
+.lastimg{
+    width:1515px;
+}
+}
+</style>
+</head>
+<body>
+<div class="head1">
+    <div>
+        <h2>Crispy kitchen</h2>
+    </div>
+    <div class="head2">
+        <a>Home</a>
+        <a>Pages</a>
+        <a>Portfolio</a>
+        <a>Blog</a>
+        <a>Contact</a>
+    </div>
+    <div class="head5">
+        <button class="btorange">Orders Page</button>
+    </div>
+</div>
+<div class="img1">
+    <img src="1.png" height="80%" width="100%">
+</div>
+<div class="head6">
+    <h1 class="head7">Special Menus</h1>
+</div>
+<div class="grid-container">
+    <div>
+        <img src="2.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Grilled Mutton</h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4.5/5</h3>
+                <img src="9.png" class="imgcls">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="3.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Egg Noodles </h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4/5</h3>
+                <img src="10.png">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="4.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Special Chicken </h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4.5/5</h3>
+                <img src="9.png" class="imgcls">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="5.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Prawn Curry</h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4/5</h3>
+                <img src="10.png">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="6.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Chicken Burger</h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4.5/5</h3>
+                <img src="9.png" class="imgcls">
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="7.jpg" height="350px" width="350px">
+        <div>
+            <div class="head8">
+                <h3>Grilled Panner</h3>
+                <button class="btn"><b>$10</b></button>
+            </div>
+            <div class="head8">
+                <h3>4/5</h3>
+                <img src="10.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="midimg">
+    <img src="8.jpg" height="300px" width="100%">
+</div>
+<div class="head6">
+    <h1 class="head7">News & Events</h1>
+</div>
+<div class="grid-container2">
+    <div class="item1">
+        <img src="11.png" height="400px" width="750px">
+        <h3>How to make a healthy meal</h3>
+    </div>
+    <div class="item2">
+        <img src="12.png" height="400px" width="750px">
+        <h3>Making the life happy with the fun of food</h3>
+    </div>
+    <div>
+        <img src="13.png" height="400px" width="500px">
+        <h3>Don't forget to take food intime</h3>
+    </div>
+    <div class="item4">
+        <img src="14.png" height="400px" width="500px">
+        <h3>Healthy lifestyle and having living tips</h3>
+    </div>
+    <div>
+        <img src="15.png" height="400px" width="500px">
+        <h3>Having a coffee daily is good for health</h3>
+    </div>
+</div>
+<div class="lastimg">
+    <img src="16.png" height="500px" width="100%">
+</div>
+</body>
+</html>
